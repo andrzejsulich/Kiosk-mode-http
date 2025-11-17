@@ -12,3 +12,7 @@ NOTE: This script is intended to be compiled into an executable (.exe) and then 
 Screensavers must handle command-line arguments like /s, /c, and /p, which this simple script does NOT handle.
 It only executes the "start screensaver" action. For a proper screensaver, you should use C# or another language designed for this.
  
+Powershell essential to start website in Edge Kiosk Mode (for test purposes):
+cd "C:\Program Files (x86)\Microsoft\Edge\Application"
+.\msedge.exe --kiosk --edge-kiosk-type=fullscreen localhost
+localhost should be replaced to target webpage address
