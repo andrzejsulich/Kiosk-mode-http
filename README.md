@@ -8,7 +8,7 @@ Install: Copy the renamed .scr file to the C:\Windows\System32 folder.
 
 Script to launch a specific URL in full-screen Kiosk mode using Microsoft Edge.
 
- NOTE: This script is intended to be compiled into an executable (.exe) and then renamed to a screensaver (.scr) file.
- Screensavers must handle command-line arguments like /s, /c, and /p, which this simple script does NOT handle.
- It only executes the "start screensaver" action. For a proper screensaver, you should use C# or another language designed for this.
+NOTE: This script is intended to be compiled into an executable (.exe) and then renamed to a screensaver (.scr) file.
+Screensavers must handle command-line arguments like /s, /c, and /p, which this simple script does NOT handle.
+It only executes the "start screensaver" action. For a proper screensaver, you should use C# or another language designed for this.
  
